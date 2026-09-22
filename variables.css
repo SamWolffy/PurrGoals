@@ -1,0 +1,16 @@
+:root {
+    --background: #FFF8F2;
+    --pink: #ffeded;
+    --border: #DDD7E5;
+    --primary: #dbdcefdb;
+    --primary-hover: #c3bcd2;
+    --text: #4b6490;
+}
+
+/* 
+#FFF8F2 → fundo geral da página
+#FFE7E7 → cards/áreas rosas de destaque
+#DDD7E5 → bordas, divisórias e fundos neutros bem suaves
+#B9C8E1 → cor principal de destaque, tipo item selecionado da sidebar, progresso e alguns botões
+#ADB8D6 → hover ou destaque um pouco mais forte que o azul principal
+*/

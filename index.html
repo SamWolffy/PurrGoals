@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PurrGoals</title>
+
+  <link rel="stylesheet" href="variables.css">
+  <link rel="stylesheet" href="sidebar.css">
+  <link rel="stylesheet" href="inicio.css">
+
+</head>
+
+<body>
+  <aside class="aside">
+    <p id="logo">Logo</p>
+    <div class="titulo">
+      <h2>PurrGoals</h2>
+      <p>pequenos hábitos, <br> grandes miados.</p>
+    </div>
+
+    <nav class="nav">
+      <ul class="sidebar">
+        <li class="selecionada">
+          <a href="#inicio">Início</a>
+        </li>
+        <li>
+          <a href="#habitos">Hábitos</a>
+        </li>
+        <li>
+          <a href="#metas">Metas</a>
+        </li>
+        <li>
+          <a href="#calendario">Calendário</a>
+        </li>
+        <li>
+          <a href="#relatorios">Relatórios</a>
+        </li>
+        <li>
+          <a href="#biblioteca">Biblioteca</a>
+        </li>
+        <li>
+          <a href="#configuracoes">Configurações</a>
+        </li>
+      </ul>
+    </nav>
+
+  </aside>
+
+  <main class="main">
+    <section id="inicio" class="pagina ativa">
+      <div class="topbar">
+        <div class="busca">
+          <input type="text" placeholder="Buscar hábitos, metas ou bolas de pelo...">
+        </div>
+
+        <div class="acoes">
+          <div class="notificacoes">
+            <img class="img sino" src="img/sino.png" alt="sino">
+          </div>
+
+          <div class="perfil">
+            <div class="foto">
+              <img class="img foto-perfil" src="img/perfil.jpg" alt="perfil">
+            </div>
+
+            <div class="nome">
+              <p>Sattz</p>
+            </div>
+
+            <div class="seta">
+              <img class="img icone" src="img/angulo-pequeno-para-baixo.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="apresentacao">
+        <div class="boas-vindas">
+          <h1>Bom dia, "nome do usuário"</h1>
+          <p>Você está construindo uma vida incrível.</p>
+          <img class="img purr-hello" src="img/purr-hello.png" alt="">
+        </div>
+
+        <div class="avisos">
+          <div class="data">
+            <h3>dia da semana</h3>
+            <p>data do dia</p>
+          </div>
+
+          <div class="cartinha">
+            <p>
+              Você consegue!
+              <br>
+              Um miado de cada vez.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="estatisticas">
+        <div class="card estatistica">
+          <!-- <img class="icone-card" src="" alt=""> -->
+          <div class="card-info">
+            <h3>124</h3>
+            <p>Hábitos Concluídos</p>
+          </div>
+        </div>
+
+        <div class="card sequencia">
+          <!-- <img class="icone-card" src="" alt=""> -->
+          <div class="card-info">
+            <h3>8</h3>
+            <p>Dias de sequência</p>
+          </div>
+        </div>
+
+        <div class="card conclusao">
+          <!-- <img class="icone-card" src="" alt=""> -->
+          <div class="card-info">
+            <h3>77%</h3>
+            <p>Taxa de conclusão</p>
+          </div>
+        </div>
+
+        <div class="card dias">
+          <!-- <img class="icone-card" src="" alt=""> -->
+          <div class="card-info">
+            <h3>15</h3>
+            <p>Dias pra sua meta</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="parte-inferior">
+        <div class="habitos-hoje">
+          <div class="cabecalho-habitos">
+            <h2>Seus hábitos de hoje</h2>
+            <div class="progresso">
+              <p>3 de 5 concluídos</p>
+              <div class="barra">
+                <div class="barra-preenchida"></div>
+              </div>
+              <p>67%</p>
+            </div>
+          </div>
+
+          <div class="lista-habitos">
+            <div class="habito-item">
+              <p>✓</p>
+              <!-- <img src="" alt="" class="habitos-fotos"> -->
+              <p>Arrumar a cama</p>
+            </div>
+            <div class="habito-item">
+              <p>✓</p>
+              <!-- <img src="" alt="" class="habitos-fotos"> -->
+              <p>Tomar café da manhã</p>
+            </div>
+            <div class="habito-item">
+              <p>✓</p>
+              <!-- <img src="" alt="" class="habitos-fotos"> -->
+              <p>Beber 2L de água</p>
+            </div>
+            <div class="habito-item">
+              <p>○</p>
+              <!-- <img src="" alt="" class="habitos-fotos"> -->
+              <p>Escrever no diário</p>
+            </div>
+            <div class="habito-item">
+              <p>○</p>
+              <!-- <img src="" alt="" class="habitos-fotos"> -->
+              <p>Meditar (10min)</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="card-foco">
+          <!-- <img class="fotinha-foco" src="" alt=""> -->
+          <div class="metas-foco">
+            <h3>Meta em foco</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="habitos" class="pagina">
+      <div class="cards">
+        <h1>Hábitos</h1>
+        <p>Aqui são os hábitos</p>
+      </div>
+    </section>
+
+    <section id="metas" class="pagina">
+      <div class="cards">
+        <h1>Metas</h1>
+        <p>Aqui são as metas</p>
+      </div>
+    </section>
+
+    <section id="calendario" class="pagina">
+      <div class="cards">
+        <h1>Calendário</h1>
+        <p>Aqui é o calendário</p>
+      </div>
+    </section>
+
+    <section id="relatorios" class="pagina">
+      <div class="cards">
+        <h1>Relatórios</h1>
+        <p>Aqui são os relatórios</p>
+      </div>
+    </section>
+
+    <section id="biblioteca" class="pagina">
+      <div class="cards">
+        <h1>Biblioteca</h1>
+        <p>Aqui é a biblioteca</p>
+      </div>
+    </section>
+
+    <section id="configuracoes" class="pagina">
+      <div class="cards">
+        <h1>Configurações</h1>
+        <p>Aqui é as configurações</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
